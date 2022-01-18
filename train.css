@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    width: 100%;
     font-family: 'EBGaramond', serif;
     font-family: 'Fruktur', cursive;
     font-family: 'Lobster', cursive;
@@ -50,7 +49,7 @@ li a:hover {
 
 #play {
     position: absolute;
-    top: 70%;
+    top: 55%;
     left: 10%;
     width: 60px;
 }
@@ -76,10 +75,11 @@ li a:hover {
 
 .subtitle-img-row {
     display: flex;
-    margin: 20px;
+    margin: 15px;
     width: 85%;
     align-items: center;
     border-radius: 6px;
+    background-color: #090A21;
     overflow: hidden;
 }
 
@@ -87,13 +87,18 @@ li a:hover {
     position: relative;
 }
 
+.subtitle-img-row p {
+    margin-left: 20px;
+    color: #E34544;
+}
+
 .subtitle-img img {
-    width: 150px;
+    width: 120px;
 }
 
 #sub-play {
     width: 35px;
     position: absolute;
     top: 30%;
-    left: 20%;
+    left: 40%;
 }
