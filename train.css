@@ -13,7 +13,6 @@
     font-family: 'Fruktur', cursive;
     font-family: 'Lobster', cursive;
     font-family: 'Righteous', cursive;
-    padding-top: 2rem;
     padding-bottom: 1rem;
     float: right;
 }
@@ -31,6 +30,9 @@ ul {
 
 ul li {
     list-style: none;
+    padding: 3rem;
+    font-weight: 900;
+    font-size: large;
 }
 
 li a:hover {
@@ -49,7 +51,7 @@ li a:hover {
 
 #play {
     position: absolute;
-    top: 55%;
+    top: 52%;
     left: 10%;
     width: 60px;
 }
