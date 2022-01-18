@@ -62,3 +62,11 @@ li a:hover {
     flex-basis: 50%;
     min-width: 50%;
 }
+
+.main-img {
+    width: 83%;
+    margin: auto;
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+}
