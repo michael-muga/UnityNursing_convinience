@@ -70,3 +70,12 @@ li a:hover {
     border-radius: 6px;
     overflow: hidden;
 }
+
+.subtitle-img-row {
+    display: flex;
+    margin: 20px;
+    width: 85%;
+    align-items: center;
+    border-radius: 6px;
+    overflow: hidden;
+}
