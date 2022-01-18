@@ -79,3 +79,11 @@ li a:hover {
     border-radius: 6px;
     overflow: hidden;
 }
+
+.subtitle-img {
+    position: relative;
+}
+
+.subtitle-img img {
+    width: 150px;
+}
