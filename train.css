@@ -42,3 +42,23 @@ li a:hover {
 .intro {
     padding: 3rem;
 }
+
+#display {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#play {
+    width: 30%;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex-basis: 50%;
+    min-width: 50%;
+}
