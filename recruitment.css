@@ -21,8 +21,33 @@ ul {
     color: navy;
 }
 h3{
-justify-items: center;
+    justify-items: center;
+    color: palevioletred;
 }
+.descsripition1{
+   display: flex;
+   justify-content: space-evenly;
+    
+}
+.requirements{
+    color: navy;
+    float: right;
+}
+
+.descsripition2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#img2{
+    float: right;
+}
+
+
+
+
+
+
 
 
 
