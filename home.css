@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+
+:root {
+  --bg-primary: rgb(6, 6, 54);
+  --color-primary: rgb(6, 6, 54);
+}
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+image {
+  max-width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+h2 {
+  font-size: 44px;
+  margin-bottom: 15px;
+}
+h3 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+}
+section .container {
+  position: relative;
+}
+.lead {
+  font-weight: 500;
+}
+header {
+  background: grey;
+}
+header .navbar-expand-lg .navbar-nav .nav-link {
+  color: whitesmoke;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 10px 24px;
+}
+.navbar-light
+  .navbar-nav
+  .nav-link.activate
+  .navbar-light
+  .navbar-nav
+  show
+  > .nav-link {
+  color: whitesmoke;
+}
+.banner-text-wrap h1 {
+  font-size: 60px;
+  font-weight: 600;
+  color: aquamarine;
+}
+.banner-text-wrap p {
+  font-size: 20px;
+}
+.row h2 {
+  font-size: 50px;
+  font-weight: 500;
+  text-align: center;
+  color: rgb(42, 77, 8);
+}
