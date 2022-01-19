@@ -64,7 +64,7 @@ li a:hover {
     color: #E34544;
 }
 
-.intro h3 {
+.intro h4 {
     padding-left: 2rem;
     padding-bottom: 1rem;
 }
@@ -114,6 +114,10 @@ span {
     padding-left: 3rem;
     width: 60%;
     height: 100vh;
+}
+
+h2 {
+    font-size: 40px;
 }
 
 #videoplay {
