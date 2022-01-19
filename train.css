@@ -7,8 +7,6 @@
     font-family: 'Righteous', cursive;
 }
 
-
-/* 
 .navbar {
     display: flex;
     width: 70%;
@@ -36,9 +34,8 @@ ul li {
     font-weight: 900;
     font-size: large;
 }
-*/
 
-.navbar-nav a:hover {
+li a:hover {
     text-decoration: underline 5px #E34544;
     transition: all ease-in-out 250ms;
 }
@@ -52,13 +49,13 @@ ul li {
 /*side bar css*/
 
 .side-bar {
-    width: 30%;
+    width: 25%;
     background-color: #090A21;
     border-radius: 20px;
     /* position: relative;
     top: -10rem; */
     height: 70vh;
-    padding: 1rem;
+    padding: 2rem;
     padding-top: 2rem;
     overflow: auto;
 }
@@ -73,9 +70,8 @@ ul li {
 }
 
 .intro h4 {
-    padding-left: 8rem;
     padding-bottom: 1rem;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 span {
@@ -88,9 +84,8 @@ span {
 
 .subtitle-img-row {
     margin-bottom: 15px;
-    border-radius: 6px;
     background: rgb(227, 69, 68);
-    background: linear-gradient(90deg, rgba(227, 69, 68, 1) 0%, rgba(124, 42, 51, 1) 47%, rgba(111, 38, 49, 1) 53%, rgba(9, 10, 33, 1) 100%);
+    background: linear-gradient(90deg, rgba(227, 69, 68, 1) 0%, rgba(227, 69, 68, 1) 47%, rgba(111, 38, 49, 1) 79%, rgba(9, 10, 33, 1) 100%);
     width: 300px;
 }
 
@@ -99,20 +94,13 @@ span {
 }
 
 .subtitle-img-row span {
-    color: white;
+    color: #090A21;
     position: relative;
-    bottom: 15px;
-}
-
-.subtitle-img img {
-    width: 60px;
+    bottom: 10px;
 }
 
 #sub-play {
     width: 35px;
-    position: absolute;
-    top: 14%;
-    left: 8%;
     cursor: pointer;
 }
 
@@ -120,7 +108,7 @@ span {
 /*display*/
 
 .display {
-    padding-left: 3rem;
+    padding-left: 4rem;
     width: 60%;
     height: 100vh;
 }
@@ -146,7 +134,11 @@ span {
 }
 
 #videoplay {
-    width: 80%;
+    width: 40%;
+}
+
+.row {
+    display: flex;
 }
 
 
