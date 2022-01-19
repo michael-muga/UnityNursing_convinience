@@ -11,6 +11,7 @@ let close_btn = document.querySelector(".close")
 intro_play.addEventListener("click", () => {
     intro.classList.remove("hide")
     tutorial.classList.add("hide")
+    ampathy.classList.add("hide")
 
 });
 
@@ -18,6 +19,7 @@ intro_play.addEventListener("click", () => {
 hallu_play.addEventListener("click", () => {
     tutorial.classList.remove("hide")
     intro.classList.add("hide")
+    ampathy.classList.add("hide")
 
 });
 
