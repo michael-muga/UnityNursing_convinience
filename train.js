@@ -5,13 +5,14 @@ let tutorial = document.querySelector(".tutorial")
 let close_btn = document.querySelector(".close")
 
 
-hallu_play.addEventListener("click", () => {
-    tutorial.classList.remove("hide")
+intro_play.addEventListener("click", () => {
+    intro.classList.remove("hide")
 
 });
 
-intro_play.addEventListener("click", () => {
-    intro.classList.remove("hide")
+
+hallu_play.addEventListener("click", () => {
+    tutorial.classList.remove("hide")
 
 });
 
