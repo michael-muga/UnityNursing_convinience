@@ -13,7 +13,7 @@
     font-family: 'Fruktur', cursive;
     font-family: 'Lobster', cursive;
     font-family: 'Righteous', cursive;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
     float: right;
 }
 
@@ -50,6 +50,22 @@ li a:hover {
     padding-bottom: 2rem;
 }
 
+.slog {
+    position: relative;
+    left: 18rem;
+    top: 10rem;
+}
+
+span {
+    color: #E34544;
+}
+
+.training {
+    width: 30%;
+    border: 2px solid red;
+    background-color: #090A21;
+}
+
 #display {
     width: 60%;
     margin: 0 auto;
@@ -63,29 +79,23 @@ li a:hover {
     cursor: pointer;
 }
 
+
+/* 
 .row {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-}
+} */
 
 .col {
     flex-basis: 50%;
     min-width: 50%;
 }
 
-.main-img {
-    width: 83%;
-    margin: auto;
-    position: relative;
-    border-radius: 6px;
-    overflow: hidden;
-}
-
 .subtitle-img-row {
     display: flex;
     margin: 15px;
-    width: 65%;
+    /* width: 80%; */
     align-items: center;
     border-radius: 6px;
     background-color: #090A21;
@@ -102,14 +112,14 @@ li a:hover {
 }
 
 .subtitle-img img {
-    width: 100px;
+    width: 80px;
 }
 
 #sub-play {
     width: 35px;
     position: absolute;
-    top: 30%;
-    left: 35%;
+    top: 22%;
+    left: 30%;
     cursor: pointer;
 }
 
