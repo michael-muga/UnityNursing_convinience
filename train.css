@@ -146,9 +146,9 @@ span {
 /*display video*/
 
 .card {
-    border: none;
     position: absolute;
     top: 10rem;
+    width: 60%;
 }
 
 .card h3 {
