@@ -1,0 +1,31 @@
+*{
+    background-color: grey;
+   
+}
+
+.navbar{
+    float: right;
+    color: palevioletred
+    }
+
+ul {
+     display: flex;
+     text-decoration: none;
+}
+
+.intro{
+    text-align: center;
+    align-items: center;
+    padding-top: 60px;
+    justify-items: center;
+    color: navy;
+}
+h3{
+justify-items: center;
+}
+
+
+
+    
+    
+    
