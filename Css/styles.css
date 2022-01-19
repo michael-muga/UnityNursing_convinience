@@ -31,14 +31,35 @@ p{
 .section1 h2{
     margin-top: 2em;
 }
-label{
+#formitem label{
     display: block;
     direction: ltr;
 }
-input{
+#formitem input{
     margin-bottom: 35px;
     direction: unset;
 }
 body{
     background-color: #2A2A2A;
+}
+.container{
+    width: 400px;
+    max-width: 400px;
+}
+#formitem input:focus{
+    border-color:rgb(18, 211, 211);
+    background-color: #ffffff;
+}
+.form__button:active{
+    transform: scale(0.98);
+}
+.form__input--error{
+    color: red;
+    border-color: red;
+}
+.form__input-error-message{
+    color: red;
+}
+.form__message--error{
+    color: red;
 }
