@@ -149,7 +149,6 @@ span {
     border: none;
     position: absolute;
     top: 10rem;
-    display: none;
 }
 
 .close {
@@ -174,4 +173,8 @@ span {
 
 #video-display {
     width: 60%;
+}
+
+.hide {
+    display: none;
 }
