@@ -151,12 +151,6 @@ span {
     top: 10rem;
 }
 
-.close {
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
 .card h3 {
     color: #090A21;
     text-decoration: underline #E34544 4px;

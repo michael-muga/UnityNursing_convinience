@@ -6,3 +6,8 @@ hallu_play.addEventListener("click", () => {
     tutorial.classList.remove("hide")
 
 });
+
+close_btn.addEventListener("click", () => {
+    tutorial.classList.add("hide")
+
+});
