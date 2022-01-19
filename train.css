@@ -147,10 +147,20 @@ span {
 
 .card {
     border: none;
+    position: absolute;
+    top: 10rem;
+    display: none;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .card h3 {
     color: #090A21;
+    text-decoration: underline #E34544 4px;
 }
 
 .card h5 {
@@ -160,4 +170,8 @@ span {
 
 .card p {
     color: #090A21;
+}
+
+#video-display {
+    width: 60%;
 }
