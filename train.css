@@ -52,13 +52,14 @@ li a:hover {
     width: 25%;
     background-color: #090A21;
     border-radius: 20px;
-    /* position: relative;
-    top: -10rem; */
-    height: 70vh;
+    position: relative;
+    top: 1rem;
+    height: 100vh;
     padding: 2rem;
     padding-top: 2rem;
+    position: fixed;
     overflow: auto;
-    box-shadow: 8px 8px 8px 8px #090A21;
+    /* box-shadow: 8px 8px 8px 8px #090A21; */
 }
 
 .side-bar::-webkit-scrollbar {
@@ -109,8 +110,7 @@ span {
 /*display*/
 
 .display {
-    padding-left: 4rem;
-    width: 60%;
+    padding-left: 20rem;
     height: 100vh;
 }
 
