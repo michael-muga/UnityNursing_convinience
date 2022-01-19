@@ -145,6 +145,19 @@ span {
 
 /*display video*/
 
+.card {
+    border: none;
+}
+
 .card h3 {
+    color: #090A21;
+}
+
+.card h5 {
+    color: #E34544;
+    font-size: 18px;
+}
+
+.card p {
     color: #090A21;
 }
