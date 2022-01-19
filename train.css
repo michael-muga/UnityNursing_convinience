@@ -52,19 +52,24 @@ li a:hover {
 .side-bar {
     width: 30%;
     background-color: #090A21;
-    padding: 3rem;
     position: relative;
     top: -10rem;
     height: 100vh;
+    padding: 1rem;
     overflow: auto;
+}
+
+.side-bar::-webkit-scrollbar {
+    display: none;
 }
 
 .intro {
     color: #E34544;
+    padding-bottom: 1.5rem;
 }
 
 .intro h4 {
-    padding-left: 2rem;
+    padding-left: 8rem;
     padding-bottom: 1rem;
 }
 
@@ -72,24 +77,25 @@ span {
     color: #E34544;
 }
 
-.subtitle-img-row {
-    display: flex;
-    margin-bottom: 10px;
-    border-radius: 6px;
-    background-color: #E34544;
-    width: 500px;
+.intro p {
+    font-size: 20px;
 }
 
-.subtitle-img-row p {
-    float: right;
+.subtitle-img-row {
+    margin-bottom: 15px;
+    border-radius: 6px;
+    background-color: #E34544;
+    width: 300px;
 }
 
 .subtitle-img {
     position: relative;
 }
 
-.subtitle-img-row p {
-    color: #090A21;
+.subtitle-img-row span {
+    color: white;
+    position: relative;
+    bottom: 2px;
 }
 
 .subtitle-img img {
