@@ -140,7 +140,8 @@ span {
 .card {
     position: absolute;
     top: 10rem;
-    width: 60%;
+    left: 24rem;
+    width: 68%;
 }
 
 .card h3 {
