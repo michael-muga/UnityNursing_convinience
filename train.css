@@ -42,6 +42,12 @@ li a:hover {
 
 .intro {
     padding: 3rem;
+    color: #E34544;
+}
+
+.intro h2 {
+    padding-left: 5rem;
+    padding-bottom: 2rem;
 }
 
 #display {
@@ -92,7 +98,7 @@ li a:hover {
 
 .subtitle-img-row p {
     margin-left: 20px;
-    color: #E34544;
+    color: white;
 }
 
 .subtitle-img img {
