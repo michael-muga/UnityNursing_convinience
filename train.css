@@ -116,8 +116,13 @@ span {
     height: 100vh;
 }
 
-h2 {
+.slog h2 {
     font-size: 40px;
+}
+
+.slog p {
+    padding-left: 10rem;
+    font-weight: 600;
 }
 
 #videoplay {
