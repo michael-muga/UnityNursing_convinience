@@ -44,23 +44,22 @@ li a:hover {
 
 .training {
     display: flex;
-    justify-content: space-between;
 }
 
 
 /*side bar css*/
 
 .side-bar {
-    width: 20%;
+    width: 30%;
     background-color: #090A21;
     padding: 3rem;
     position: relative;
     top: -10rem;
     height: 100vh;
+    overflow: auto;
 }
 
 .intro {
-    padding: 3rem;
     color: #E34544;
 }
 
@@ -73,18 +72,16 @@ span {
     color: #E34544;
 }
 
-.col {
-    flex-basis: 50%;
-    min-width: 50%;
-}
-
 .subtitle-img-row {
     display: flex;
-    margin: 10px;
-    align-items: center;
+    margin-bottom: 10px;
     border-radius: 6px;
     background-color: #E34544;
-    overflow: hidden;
+    width: 500px;
+}
+
+.subtitle-img-row p {
+    float: right;
 }
 
 .subtitle-img {
@@ -130,8 +127,9 @@ span {
     text-decoration: underline 5px #E34544;
     padding-bottom: 2rem;
     display: flex;
+    padding-left: 1rem;
 }
 
 #videoplay {
-    width: 35%;
+    width: 55%;
 }
