@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    width: 100%;
     font-family: 'EBGaramond', serif;
     font-family: 'Fruktur', cursive;
     font-family: 'Lobster', cursive;
@@ -9,6 +10,7 @@
 
 .navbar {
     display: flex;
+    width: 50%;
     font-family: 'EBGaramond', serif;
     font-family: 'Fruktur', cursive;
     font-family: 'Lobster', cursive;
@@ -40,13 +42,21 @@ li a:hover {
     transition: all ease-in-out 250ms;
 }
 
+.training {
+    display: flex;
+    justify-content: space-between;
+}
+
 
 /*side bar css*/
 
 .side-bar {
-    width: 30%;
-    border: 2px solid red;
+    width: 20%;
     background-color: #090A21;
+    padding: 2rem;
+    position: relative;
+    top: -10rem;
+    height: 100vh;
 }
 
 .intro {
@@ -55,7 +65,7 @@ li a:hover {
 }
 
 .intro h3 {
-    padding-left: 5rem;
+    padding-left: 2rem;
     padding-bottom: 1rem;
 }
 
@@ -70,11 +80,10 @@ span {
 
 .subtitle-img-row {
     display: flex;
-    margin: 15px;
-    /* width: 80%; */
+    margin: 10px;
     align-items: center;
     border-radius: 6px;
-    background-color: #090A21;
+    background-color: #E34544;
     overflow: hidden;
 }
 
@@ -83,20 +92,28 @@ span {
 }
 
 .subtitle-img-row p {
-    margin-left: 20px;
-    color: white;
+    color: #090A21;
 }
 
 .subtitle-img img {
-    width: 80px;
+    width: 60px;
 }
 
 #sub-play {
     width: 35px;
     position: absolute;
-    top: 22%;
-    left: 30%;
+    top: 14%;
+    left: 8%;
     cursor: pointer;
+}
+
+
+/*display*/
+
+.display {
+    padding-left: 3rem;
+    width: 60%;
+    height: 100vh;
 }
 
 #videoplay {
