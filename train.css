@@ -56,6 +56,7 @@ li a:hover {
     top: -10rem;
     height: 100vh;
     padding: 1rem;
+    padding-top: 2rem;
     overflow: auto;
 }
 
@@ -71,6 +72,7 @@ li a:hover {
 .intro h4 {
     padding-left: 8rem;
     padding-bottom: 1rem;
+    font-size: 20px;
 }
 
 span {
@@ -95,7 +97,7 @@ span {
 .subtitle-img-row span {
     color: white;
     position: relative;
-    bottom: 2px;
+    bottom: 16px;
 }
 
 .subtitle-img img {
@@ -125,7 +127,10 @@ span {
 
 .slog p {
     padding-left: 10rem;
+    position: relative;
+    bottom: 2.5rem;
     font-weight: 600;
+    line-height: 20px;
 }
 
 .sub-head {
@@ -137,5 +142,12 @@ span {
 }
 
 #videoplay {
-    width: 55%;
+    width: 50%;
+}
+
+
+/*display video*/
+
+.card h3 {
+    color: #090A21;
 }
