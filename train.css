@@ -1,6 +1,5 @@
 * {
     margin: 0;
-    padding: 0;
     width: 100%;
     font-family: 'EBGaramond', serif;
     font-family: 'Fruktur', cursive;
@@ -8,14 +7,15 @@
     font-family: 'Righteous', cursive;
 }
 
+
+/* 
 .navbar {
     display: flex;
-    width: 50%;
+    width: 70%;
     font-family: 'EBGaramond', serif;
     font-family: 'Fruktur', cursive;
     font-family: 'Lobster', cursive;
     font-family: 'Righteous', cursive;
-    padding-bottom: 2rem;
     float: right;
 }
 
@@ -36,14 +36,16 @@ ul li {
     font-weight: 900;
     font-size: large;
 }
+*/
 
-li a:hover {
+.navbar-nav a:hover {
     text-decoration: underline 5px #E34544;
     transition: all ease-in-out 250ms;
 }
 
 .training {
     display: flex;
+    padding-top: 3rem;
 }
 
 
@@ -52,9 +54,10 @@ li a:hover {
 .side-bar {
     width: 30%;
     background-color: #090A21;
-    position: relative;
-    top: -10rem;
-    height: 100vh;
+    border-radius: 20px;
+    /* position: relative;
+    top: -10rem; */
+    height: 70vh;
     padding: 1rem;
     padding-top: 2rem;
     overflow: auto;
@@ -86,7 +89,8 @@ span {
 .subtitle-img-row {
     margin-bottom: 15px;
     border-radius: 6px;
-    background-color: #E34544;
+    background: rgb(227, 69, 68);
+    background: linear-gradient(90deg, rgba(227, 69, 68, 1) 0%, rgba(124, 42, 51, 1) 47%, rgba(111, 38, 49, 1) 53%, rgba(9, 10, 33, 1) 100%);
     width: 300px;
 }
 
