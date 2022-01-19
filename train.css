@@ -53,7 +53,7 @@ li a:hover {
 .side-bar {
     width: 20%;
     background-color: #090A21;
-    padding: 2rem;
+    padding: 3rem;
     position: relative;
     top: -10rem;
     height: 100vh;
@@ -125,10 +125,13 @@ span {
     font-weight: 600;
 }
 
+.sub-head {
+    padding-top: 2rem;
+    text-decoration: underline 5px #E34544;
+    padding-bottom: 2rem;
+    display: flex;
+}
+
 #videoplay {
-    position: absolute;
-    top: 48%;
-    left: 5%;
-    width: 60%;
-    display: none;
+    width: 35%;
 }
