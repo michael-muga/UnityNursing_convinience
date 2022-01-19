@@ -97,7 +97,7 @@ span {
 .subtitle-img-row span {
     color: white;
     position: relative;
-    bottom: 16px;
+    bottom: 15px;
 }
 
 .subtitle-img img {
@@ -142,7 +142,7 @@ span {
 }
 
 #videoplay {
-    width: 50%;
+    width: 80%;
 }
 
 
