@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="recruitment.css">
+    <title>form</title>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li>HOME</li>
+            <li>TRAINING</li>
+            <li>JOBS</li>
+            <li>LOGIN/SIGNUP</li>
+        </ul>
+    </div>
+
+
+    <div class="frm">
+        <form action="index.html" method="post">
+            <h1 style="background-color: grey;">Fill in Your Details.</h1>
+              <label for="name">Name:*</label>
+              <input type="text" id="name" name="user_name" placeholder="Enter Your Name" required>
+              <label for="experience">Years of Experience:*</label>
+              <input type="experience" id="experience" name="Years of Experince" placeholder="Enter Years of Experience" required>
+              <label for="level">Education level:*</label>
+              <input type="level" id="level" name="user-level" placeholder="Enter Your Education Level" required>
+              <label for="coarse">Coarse Undertaken*</label>
+              <input type="course" id="course" name="user_course" placeholder="Type Coarse Undertaken" required>
+              <label for="phone">Mobile Number:*</label>
+              <input type="phone" id="phone" name="phone" placeholder="+254-000-000-000" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}-0-9]{3}" required>
+              
+               <br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    
+</body>
+</html>
