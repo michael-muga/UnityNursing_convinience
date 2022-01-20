@@ -45,7 +45,7 @@ medic_btn.addEventListener("click", () => {
 });
 close_btn.forEach(item => {
     item.addEventListener("click", e => {
-        play.classList.add("hide")
+        e.target.parentElement.classList.add("hide")
     })
 })
 
