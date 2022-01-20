@@ -6,7 +6,8 @@ let ampathy = document.querySelector(".ampathy")
 let ampath_btn = document.querySelector(".ampathy-btn")
 let medic = document.querySelector(".med")
 let medic_btn = document.querySelector(".med-btn")
-let close_btn = document.querySelector(".close")
+let play = document.querySelectorAll(".play")
+let close_btn = document.querySelectorAll(".close")
 
 
 intro_play.addEventListener("click", () => {
@@ -42,26 +43,23 @@ medic_btn.addEventListener("click", () => {
     ampathy.classList.add("hide")
 
 });
-// close_btn.forEach(item => {
-//     item.addEventListener("click", e => {
-//         let target = e.target
-//         let parent = target.parentElement.parentElement;
-//         if (parent.classList.contains("introduction"))
-//             document.querySelector(".introduction").classList.add("hide")
-//     })
-// })
+close_btn.forEach(item => {
+    item.addEventListener("click", e => {
+        play.classList.add("hide")
+    })
+})
 
-close_btn.addEventListener("click", () => {
-    intro.classList.add("hide")
+// close_btn.addEventListener("click", () => {
+//     intro.classList.add("hide")
 
 
-});
+// });
 
 
-close_btn.addEventListener("click", () => {
-    tutorial.classList.add("hide")
+// close_btn.addEventListener("click", () => {
+//     tutorial.classList.add("hide")
 
-});
+// });
 
 
 //Q/A JS//
