@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    width: 100%;
+    font-family: 'EBGaramond', serif;
+    font-family: 'Fruktur', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Righteous', cursive;
+}
+
+.navbar {
+    display: flex;
+    width: 70%;
+    font-family: 'EBGaramond', serif;
+    font-family: 'Fruktur', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Righteous', cursive;
+    float: right;
+}
+
+ul a {
+    text-decoration: none;
+    color: #090A21;
+}
+
+ul {
+    display: flex;
+    justify-content: right;
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+    padding: 3rem;
+    font-weight: 900;
+    font-size: large;
+}
+
+li a:hover {
+    text-decoration: underline 5px #E34544;
+    transition: all ease-in-out 250ms;
+}
+
+.training {
+    display: flex;
+    padding-top: 3rem;
+}
+
+
+/*side bar css*/
+
+.side-bar {
+    width: 25%;
+    background-color: #090A21;
+    border-radius: 20px;
+    position: relative;
+    top: 1rem;
+    height: 100vh;
+    padding: 2rem;
+    padding-top: 2rem;
+    position: fixed;
+    overflow: auto;
+    /* box-shadow: 8px 8px 8px 8px #090A21; */
+}
+
+.side-bar::-webkit-scrollbar {
+    display: none;
+}
+
+.intro {
+    color: #E34544;
+    padding-bottom: 1.5rem;
+}
+
+.intro h4 {
+    padding-bottom: 1rem;
+    font-size: 24px;
+}
+
+span {
+    color: #E34544;
+}
+
+.intro p {
+    font-size: 20px;
+}
+
+.subtitle-img-row {
+    margin-bottom: 15px;
+    background: rgb(227, 69, 68);
+    background: linear-gradient(90deg, rgba(227, 69, 68, 1) 0%, rgba(227, 69, 68, 1) 47%, rgba(111, 38, 49, 1) 79%, rgba(9, 10, 33, 1) 100%);
+    width: 300px;
+}
+
+.subtitle-img {
+    position: relative;
+}
+
+.subtitle-img-row span {
+    color: #090A21;
+}
+
+#sub-play {
+    width: 35px;
+    cursor: pointer;
+}
+
+
+/*display*/
+
+.display {
+    padding-left: 24rem;
+    height: 100vh;
+}
+
+.slog h2 {
+    font-size: 40px;
+}
+
+.slog p {
+    padding-left: 10rem;
+    position: relative;
+    bottom: 2.5rem;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.sub-head {
+    padding-top: 2rem;
+    text-decoration: underline 5px #E34544;
+    padding-bottom: 2rem;
+    display: flex;
+    padding-left: 1rem;
+    cursor: pointer;
+}
+
+
+/*display video*/
+
+.questions {
+    text-align: center;
+    padding-top: 6rem;
+}
+
+.card {
+    position: absolute;
+    top: 10rem;
+    left: 24rem;
+    width: 68%;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Fruktur', cursive;
+    font-family: 'Fugaz One', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Monoton', cursive;
+    font-family: 'Righteous', cursive;
+}
+
+.card h3 {
+    color: #090A21;
+    text-decoration: underline #E34544 4px;
+}
+
+.card h5 {
+    color: #E34544;
+    font-size: 18px;
+}
+
+.card p {
+    color: #090A21;
+}
+
+.hide {
+    display: none;
+}
