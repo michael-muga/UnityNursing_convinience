@@ -191,6 +191,10 @@
         width: 100%;
     }
     
+    .display {
+        display: none;
+    }
+    
     button[type="submit"] {
         width: 100%;
         height: 50px;
