@@ -12,10 +12,17 @@ document.addEventListener("DOMContentLoaded", () =>{
     const LoginForm = document.querySelector(".login");
     const SignupForm = document.querySelector(".signup");
 
+    var emailInput = document.querySelector("input#loginemail").val();
+    var passwordInput = document.querySelector("input#password").val();
+
     LoginForm.addEventListener("submit", e =>{
         e.preventDefault();
 
-        setFormMessage(LoginForm, "error", "invalid email/password combination")
+        
+       // setFormMessage(SignupForm, "success", "Signup Succesfull you can now login your account")
+        
+        
+        setFormMessage(LoginForm,"error", "Login succesfull")
     })
 
 
