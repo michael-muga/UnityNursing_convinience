@@ -6,7 +6,7 @@ let ampathy = document.querySelector(".ampathy")
 let ampath_btn = document.querySelector(".ampathy-btn")
 let medic = document.querySelector(".med")
 let medic_btn = document.querySelector(".med-btn")
-let play = document.querySelectorAll(".play")
+let play = document.querySelector(".play")
 let close_btn = document.querySelectorAll(".close")
 
 
