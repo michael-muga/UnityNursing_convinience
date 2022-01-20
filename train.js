@@ -47,6 +47,7 @@ medic_btn.addEventListener("click", () => {
 close_btn.addEventListener("click", () => {
     intro.classList.add("hide")
 
+
 });
 
 
@@ -54,3 +55,17 @@ close_btn.addEventListener("click", () => {
     tutorial.classList.add("hide")
 
 });
+
+
+//Q/A JS//
+let cancel = document.querySelector(".cancel")
+let answer = document.querySelector(".quest")
+let quiz = document.querySelector("#quiz")
+
+quiz.addEventListener("click", () => {
+    answer.classList.remove("hide")
+})
+
+cancel.addEventListener("click", () => {
+    answer.classList.add("hide")
+})
