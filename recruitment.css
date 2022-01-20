@@ -3,12 +3,11 @@
     }
     
     .navbar {
-        width: 70%;
         font-family: 'EBGaramond', serif;
         font-family: 'Fruktur', cursive;
         font-family: 'Lobster', cursive;
         font-family: 'Righteous', cursive;
-        float: right;
+        width: 85%;
     }
     
     ul a {
@@ -36,7 +35,7 @@
     
     .intro {
         text-align: center;
-        padding-top: 8rem;
+        padding-top: 2rem;
         color: #090A21;
     }
     
@@ -131,13 +130,13 @@
     
     .frm {
         position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        top: 15%;
+        left: 35%;
+        /* transform: translate(-50%, -50%); */
         width: 400px;
+        padding: 2rem;
         max-width: 400px;
         background-color: white;
-        border-radius: 10px;
     }
     
     .frm h1 {

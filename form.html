@@ -10,52 +10,59 @@
 </head>
 
 <body>
-    <div class="navbar">
-        <ul>
-            <li>HOME</li>
-            <li>TRAINING</li>
-            <li>JOBS</li>
-            <li>LOGIN/SIGNUP</li>
-        </ul>
-    </div>
-
-
-    <div class="frm">
-        <form action="index.html" method="post">
-            <h1>Fill in Your Details.</h1>
-            <div class="formInput">
-                <input type="text" id="name" name="user_name" required><br>
-                <span></span>
-                <label for="name">Name</label>
-            </div>
-
-            <div class="formInput">
-                <input type="experience" id="experience" name="Years of Experince" required><br>
-                <span></span>
-                <label for="experience">Years of Experience</label>
-            </div>
-
-            <div class="formInput">
-                <input type="level" id="level" name="user-level" required><br>
-                <span></span>
-                <label for="level">Education level</label>
-            </div>
-            <div class="formInput">
-                <input type="level" id="level" name="user-level" required><br>
-                <span></span>
-                <label for="level">Email Address</label>
-            </div>
-
-            <div class="formInput">
-                <input type="phone" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}-0-9]{3}" required><br>
-                <span></span>
-                <label for="phone">Mobile Number</label>
-            </div>
+    <div class="container">
+        <div>
+            <nav class="navbar  navbar-light ">
+                <div class="container-fluid">
+                    <ul>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Training</a></li>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">Login/Signup</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
 
 
 
-            <button type="submit" class="job">Submit</button>
-        </form>
+        <div class="frm">
+            <form action="index.html" method="post">
+                <h1>Fill in Your Details.</h1>
+                <div class="formInput">
+                    <input type="text" id="name" name="user_name" required><br>
+                    <span></span>
+                    <label for="name">Name</label>
+                </div>
+
+                <div class="formInput">
+                    <input type="experience" id="experience" name="Years of Experince" required><br>
+                    <span></span>
+                    <label for="experience">Years of Experience</label>
+                </div>
+
+                <div class="formInput">
+                    <input type="level" id="level" name="user-level" required><br>
+                    <span></span>
+                    <label for="level">Education level</label>
+                </div>
+                <div class="formInput">
+                    <input type="level" id="level" name="user-level" required><br>
+                    <span></span>
+                    <label for="level">Email Address</label>
+                </div>
+
+                <div class="formInput">
+                    <input type="phone" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}-0-9]{3}" required><br>
+                    <span></span>
+                    <label for="phone">Mobile Number</label>
+                </div>
+
+
+
+                <button type="submit" class="job">Submit</button>
+            </form>
+        </div>
     </div>
     <script src="/recruitment.js"></script>
 </body>
