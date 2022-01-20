@@ -135,6 +135,18 @@ span {
 
 /*display video*/
 
+.questions {
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Fruktur', cursive;
+    font-family: 'Fugaz One', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Monoton', cursive;
+    font-family: 'Righteous', cursive;
+    padding-top: 6rem;
+}
+
 .card {
     position: absolute;
     top: 10rem;
