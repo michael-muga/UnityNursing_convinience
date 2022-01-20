@@ -11,36 +11,39 @@
     <title>signup</title>
 </head>
 <body>
-    <div class="section1">
-        <h2>SignUp</h2>
-        <img src="images/logo.png" alt="logo">
+    <div class="container">
+        <div class="section1">
+            <h2>SignUp</h2>
+            <img src="images/logo.png" alt="logo">
+        </div>
+        <form action="" class="signup">
+            <div id="formitem">
+                <label for="username"><img src="images/nameicon.png" alt="uname"></label>
+                <input type="text" id="firstname" autofocus placeholder="First name" required><br>
+            </div>
+            <div id="formitem">
+                <label for="lastname"></label>
+                <input type="text" id="lastname" placeholder="Last name" required><br>
+            </div>
+            <div id="formitem">
+                <label for="email"><img src="images/email.png" alt="email"></label>
+                <input type="email" id="email" placeholder="Email Address" required><br>
+            </div>
+            <div id="formitem">
+                <label for="password"><img src="images/key.png" alt="password"></label>
+                <input type="password" id="password" placeholder="password" required><br>
+            </div>
+            <div id="formitem">
+                <label for="password confirm"></label>
+                <input type="password" id="password" placeholder="confirm password" required><br>
+            </div>
+    
+            <input type="submit" class="form__button" name=""  value="Signup">
+        </form>
+        <div class="forminfo">
+            <p>Already have an account?<a href="login.html">Login here</a></p>
+        </div>
     </div>
-    <form action="" class="signup">
-        <div id="formitem">
-            <label for="username"><img src="images/nameicon.png" alt="uname"></label>
-            <input type="text" id="firstname" placeholder="First name"><br>
-        </div>
-        <div id="formitem">
-            <label for="lastname"></label>
-            <input type="text" id="lastname" placeholder="Last name"><br>
-        </div>
-        <div id="formitem">
-            <label for="email"><img src="images/email.png" alt="email"></label>
-            <input type="email" id="email" placeholder="Email Address"><br>
-        </div>
-        <div id="formitem">
-            <label for="password"><img src="images/key.png" alt="password"></label>
-            <input type="password" id="password" placeholder="password"><br>
-        </div>
-        <div id="formitem">
-            <label for="password confirm"></label>
-            <input type="password" id="password" placeholder="confirm password"><br>
-        </div>
-
-        <button><a href="#">SignUp</a></button>
-    </form>
-    <div class="forminfo">
-        <p>Already have an account?<a href="login.html">Login here</a></p>
-    </div>
+   
 </body>
 </html>
