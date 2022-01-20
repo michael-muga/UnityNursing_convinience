@@ -20,19 +20,42 @@
 
     <div class="frm">
         <form action="index.html" method="post">
-            <h1 style="background-color: grey;">Fill in Your Details.</h1>
-              <label for="name">Name:*</label>
-              <input type="text" id="name" name="user_name" placeholder="Enter Your Name" required>
-              <label for="experience">Years of Experience:*</label>
-              <input type="experience" id="experience" name="Years of Experince" placeholder="Enter Years of Experience" required>
-              <label for="level">Education level:*</label>
-              <input type="level" id="level" name="user-level" placeholder="Enter Your Education Level" required>
-              <label for="coarse">Coarse Undertaken*</label>
-              <input type="course" id="course" name="user_course" placeholder="Type Coarse Undertaken" required>
-              <label for="phone">Mobile Number:*</label>
-              <input type="phone" id="phone" name="phone" placeholder="+254-000-000-000" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}-0-9]{3}" required>
+            <h1>Fill in Your Details.</h1>
+            <div class="formInput">
+                <input type="text" id="name" name="user_name"  required><br>
+                <span></span>
+                <label for="name">Name</label>
+            </div>
+
+            <div class="formInput">
+                <input type="experience" id="experience" name="Years of Experince"  required><br>
+                <span></span>
+                <label for="experience">Years of Experience</label>
+            </div>
+
+            <div class="formInput">
+                <input type="level" id="level" name="user-level"  required><br>
+                <span></span>
+                <label for="level">Education level</label>
+            </div>
+
+            <div class="formInput">
+                <input type="phone" id="phone" name="phone"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}-0-9]{3}" required><br>
+                <span></span>
+                <label for="phone">Mobile Number</label>
+            </div>
+
+            <input type="course" id="course" name="user_course"  required><br>
+            <span></span>
+            <label for="coarse">Coarse Undertaken</label>
+            <div class="formInput">
+                <input type="phone" id="phone" name="phone"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}-0-9]{3}" required><br>
+                <span></span>
+                <label for="phone">Mobile Number</label>
+            </div>
+
+
               
-               <br><br>
             <button type="submit">Submit</button>
         </form>
     </div>
