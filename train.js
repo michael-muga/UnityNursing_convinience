@@ -44,10 +44,13 @@ medic_btn.addEventListener("click", () => {
 });
 
 
-// close_btn.addEventListener("click", () => {
-//     intro.classList.add("hide")
-// });
+close_btn.addEventListener("click", () => {
+    intro.classList.add("hide")
 
-// close_btn.addEventListener("click", () => {
-//     tutorial.classList.add("hide")
-// });
+});
+
+
+close_btn.addEventListener("click", () => {
+    tutorial.classList.add("hide")
+
+});
