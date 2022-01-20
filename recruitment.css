@@ -1,11 +1,12 @@
 *{
-    background-color: grey;
+    background-color: #2A2A2A;
    
 }
 
 .navbar{
     float: right;
-    color: rgb(243, 92, 142)
+    color: #E34544;
+    margin-top: 0em;
     }
 
 ul li{
@@ -19,12 +20,12 @@ ul li{
     align-items: center;
     padding-top: 60px;
     justify-items: center;
-    color: navy;
+    color: #090A21;
     margin-top: 3em;
 }
 h3{
     justify-items: center;
-    color: rgb(243, 92, 142);
+    color: #E34544;
     text-shadow: black;
 }
 
@@ -54,21 +55,84 @@ h3{
 }
 
 .requirements1{
-    color: navy;
+    color: #090A21;
 }
  
 .requirements2{
-    color: navy;
+    color: #090A21;
 }
 
 
 .requirements3{
-    color: navy;
+    color: #090A21;
 }
 
 .requirements4{
-    color: navy;
+    color: #090A21;
 }
+
+.requirements1 a{
+    color: blue;
+    text-decoration:none;
+    border: solid;
+    padding: .5em;
+    border-radius: 2px;
+}
+
+.requirements2 a{
+    color: blue;
+    text-decoration:none;
+    border: solid;
+    padding: .5em;
+    border-radius: 2px;
+}
+
+.requirements3 a{
+    color: blue;
+    text-decoration:none;
+    border: solid;
+    padding: .5em;
+    border-radius: 2px;
+}
+
+.requirements4 a{
+    color: blue;
+    text-decoration:none;
+    border: solid;
+    padding: .5em;
+    border-radius: 2px;
+}
+
+.frm{
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background: lightgrey;
+    border-radius: 8px;
+    margin-top: 50px;
+  }
+
+input[type="name"],
+input[type="experience"],
+input[type="level"],
+input[type="coarse"],
+input[type="phone"] {
+    background: rgba(255,255,255,0.1);
+    border: none;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+    width: 100%;
+    background-color: #E8EEEF;
+    color: rgb(53, 53, 53);
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+}
+
+
+
 
 
 
