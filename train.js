@@ -42,7 +42,14 @@ medic_btn.addEventListener("click", () => {
     ampathy.classList.add("hide")
 
 });
-
+// close_btn.forEach(item => {
+//     item.addEventListener("click", e => {
+//         let target = e.target
+//         let parent = target.parentElement.parentElement;
+//         if (parent.classList.contains("introduction"))
+//             document.querySelector(".introduction").classList.add("hide")
+//     })
+// })
 
 close_btn.addEventListener("click", () => {
     intro.classList.add("hide")
