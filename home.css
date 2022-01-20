@@ -1,126 +1,143 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
-
 :root {
-  --bg-primary: rgb(6, 6, 54);
-  --color-primary: rgb(6, 6, 54);
+    --bg-primary: rgb(6, 6, 54);
+    --color-primary: rgb(6, 6, 54);
 }
+
 body {
-  font-family: "Raleway", sans-serif;
-  margin: 0;
-  padding: 0;
-  font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
 }
+
 a,
 a:hover,
 a:focus {
-  text-decoration: none;
+    text-decoration: none;
 }
+
 ul {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
+
 li {
-  list-style: none;
+    list-style: none;
 }
+
 image {
-  max-width: 100%;
+    max-width: 100%;
 }
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-weight: 700;
+    font-weight: 700;
 }
+
 h2 {
-  font-size: 44px;
-  margin-bottom: 15px;
+    font-size: 44px;
+    margin-bottom: 15px;
 }
+
 h3 {
-  font-size: 24px;
-  line-height: 32px;
-  font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
 }
+
 section .container {
-  position: relative;
+    position: relative;
 }
+
 .lead {
-  font-weight: 500;
+    font-weight: 500;
 }
+
 header {
-  background: grey;
+    background: grey;
 }
+
 header .navbar-expand-lg .navbar-nav .nav-link {
-  color: whitesmoke;
-  font-size: 16px;
-  text-transform: uppercase;
-  padding: 10px 24px;
+    color: whitesmoke;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px 24px;
 }
-.navbar-light
-  .navbar-nav
-  .nav-link.activate
-  .navbar-light
-  .navbar-nav
-  show
-  > .nav-link {
-  color: whitesmoke;
+
+.navbar-light .navbar-nav .nav-link.activate .navbar-light .navbar-nav show>.nav-link {
+    color: whitesmoke;
 }
+
 .banner-text-wrap h1 {
-  font-size: 50px;
-  font-weight: 500;
-  color: rgb(3, 117, 121);
+    font-size: 50px;
+    font-weight: 500;
+    color: rgb(3, 117, 121);
 }
+
 .banner-text-wrap p {
-  font-size: 20px;
+    font-size: 20px;
 }
+
 .row h2 {
-  font-size: 50px;
-  font-weight: 500;
-  text-align: center;
-  color: rgb(42, 77, 8);
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    color: rgb(42, 77, 8);
 }
+
 section .about-section {
-  padding: 100px 0px;
+    padding: 100px 0px;
 }
+
 .about-info h3 {
-  font-size: 40px;
-  font-weight: 400;
-  color: rgb(201, 24, 148);
+    font-size: 40px;
+    font-weight: 400;
+    color: rgb(201, 24, 148);
 }
+
 .ourgallery {
-  position: absolute;
-  margin-top: 5px;
+    position: absolute;
+    margin-top: 5px;
 }
+
 .galleryheading {
-  margin-top: 30px;
+    margin-top: 30px;
 }
+
 .galleryheading h1 {
-  text-align: center;
-  font-size: 28px;
-  font-family: "Open Sans", sans-serif;
-  color: rgb(228, 21, 148);
+    text-align: center;
+    font-size: 28px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(228, 21, 148);
 }
+
 .galleryheading p {
-  font-size: 20px;
-  text-align: center;
-  padding: 10px 300px;
-  font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 300px;
+    font-family: "Open Sans", sans-serif;
 }
 
 .gallerysection {
-  padding-left: 160px;
-  padding-right: 160px;
+    padding-left: 160px;
+    padding-right: 160px;
 }
+
 .gallerysection img {
-  height: 340px;
-  width: 340px;
-  padding: 10px 10px;
-  margin-top: 20px;
-  transition: 0.8s ease-in-out;
-  transform-style: preserve-3d;
+    height: 340px;
+    width: 340px;
+    padding: 10px 10px;
+    margin-top: 20px;
+    transition: 0.8s ease-in-out;
+    transform-style: preserve-3d;
 }
+
 .gallerysection img:hover {
-  transform: translate(-100%, 0) rotate(10deg);
-  cursor: pointer;
+    transform: translate(-100%, 0) rotate(10deg);
+    cursor: pointer;
 }
