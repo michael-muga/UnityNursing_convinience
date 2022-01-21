@@ -116,7 +116,17 @@ header .navbar-expand-lg .navbar-nav .nav-link {
     font-size: 50px;
     font-weight: 500;
     text-align: center;
-    color: rgb(42, 77, 8);
+    color: #E34544;
+}
+
+.card-title {
+    color: #E34544;
+}
+
+.btn-primary {
+    border-radius: 20px;
+    background-color: #E34544;
+    color: #090A21;
 }
 
 section .about-section {
@@ -126,7 +136,7 @@ section .about-section {
 .about-info h3 {
     font-size: 40px;
     font-weight: 400;
-    color: rgb(201, 24, 148);
+    color: #E34544;
 }
 
 .ourgallery {
