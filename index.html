@@ -1,44 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Css/bootstrap.css">
-    <link rel="stylesheet" href="Css/styles.css">
-    <script src="Js/jquery-3.6.0.js"></script>
-    <script src="Js/scripts.js"></script>
-    <title>login</title>
-</head>
-<body>
-    <div class="container">
-        <div class="section1">
-            <h2>LogIn</h2>
-            <img src="images/logo.png" alt="logo">
-        </div>
-        <form action="" class="login">
-            <div class="form__message form__message--error"></div>
-            <div id="formitem">
-                <input type="email" id="loginemail" autofocus  required><br>
-                <span></span>
-                <label for="email"><img src="images/email.png" alt="email">Email Adress</label>
-                <div class="form__input__error-message"></div>
-            </div>
-            <div id="formitem">
-                <input type="password" id="password" autofocus  required maxlength="10"><br>
-                <span></span>
-                <label for="password"><img src="images/key.png" alt="password">Password</label>
-                <div class="form__input__error-message"></div>
+    <title>Unity Nursing Home</title>
 
-            </div>
-            <button type="submit" name="" class="form__button" "><a href="training.html">LogIn</a></button>
-    
-        </form>
-        <div class="forminfo">
-            <p>Forgot password?<a href="#">Reset password</a></p>
-            <p><a href="signup.html">create new account</a></p>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="home.css">
+
+</head>
+
+<body>
+
+    <!--start header-->
+
+    <div class="container">
+        <div>
+            <nav class="navbar  navbar-light ">
+                <div class="container-fluid">
+                    <img src="/images/logo.png" id="logo">
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="training.html">Training</a></li>
+                        <li><a href="recruitment.html">Jobs</a></li>
+                        <li><a href="login.html">Login/Signup</a></li>
+                    </ul>
+                </div>
+            </nav>
         </div>
     </div>
 
+    <!--End Header-->
+
+    <!--start hero-->
+    <section class="hero-banner" id="home-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="banner-text-wrap">
+                        <h1>Experience the feeling of belonging and connection</h1>
+                        <p>Have you been looking for senior living in the Nairobi area. There are so many factors to consider when you’re choosing a nursing community that you may not know where to begin. Relax and take a deep breath. We have the answers
+                            and support you need.</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--end hero-->
+    <br>
+    <br>
+    <br>
+    <!--start features-->
+    <section class="features-section" id="service-section">
+        <div class="container">
+
+            <div class="row">
+                <h2>OUR SERVICES</h2>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/serv1.jpeg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Caregiving Training videos</h5>
+                            <p class="card-text">Free content on caregiving content on home care and special patient.</p>
+                            <a href="training.html" class="btn btn-primary">View Content</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/1.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Job Recruitment</h5>
+                            <p class="card-text">Nursing homes are able to post about job vacancies in their agency, and allow caregivers to apply for the job accorfind to the qualifications needed</p>
+                            <a href="recruitment.html" class="btn btn-primary">View Recruitment</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/nur1.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Job Application</h5>
+                            <p class="card-text">Caregivers can apply on job vacancies available on the site and be able to secure a job on agency of their liking r qualification.</p>
+                            <a href="recruitment.html" class="btn btn-primary">View Application</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--end features-->
+    <br>
+    <br>
+    <br>
+    <br>
+    <!--start about-->
+    <section class="about-section" id="about-section">
+        <div class="container">
+            <div class="row gx-5">
+
+                <div class="col-md-6">
+                    <div class="about-media">
+                        <img src="images/gren.jpg" id="gren">
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="about-info">
+                        <h3>About Us</h3>
+                        <p class="lead">It’s hard for caregivers to get job opportunities in one place. They have to search for job vacancy in different places and sites<br> It’s also hard for many people to afford <br> caregiving education or caregivers for their loved
+                            ones or self.<br> We offer free caregiving training Videos and also connects caregivers to several recruitment opportunities in one place.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!--end about-->
+    <br>
+    <br>
+    <br>
+    <br>
+    <!--start review-->
+    <section class="review-section" id="review-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="section-title">Customer-Reviews</h2>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="reviews-slide">
+                        <div class="item">
+                            <div class="review-box">
+                                <div class="review-media">
+                                    <img src="images/care.jpeg" alt="">
+                                </div>
+                                <div class="review-info">
+                                    <p>Choosing to move into a senior living community allows you to take your time developing a plan for future care. By removing unnecessary responsibilities, you’re free to live your healthiest life.</p>
+                                    <h4>John Doe</h4>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 right">
+                    <div class="reviews-slide">
+                        <div class="item">
+                            <div class="review-box">
+                                <div class="review-media">
+                                    <img src="images/serv4.jpeg" alt="">
+                                </div>
+                                <div class="review-info">
+                                    <p>Our senior years are the moment for us to finally enjoy all of our free time. With no work and no obligations, you have the freedom to pursue old interests or make new ones.</p>
+                                    <h4>Jane Doe</h4>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- custom js link-->
+    <script src="js/home.js"></script>
 </body>
+
 </html>
