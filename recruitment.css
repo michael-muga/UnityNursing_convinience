@@ -7,7 +7,11 @@
         font-family: 'Fruktur', cursive;
         font-family: 'Lobster', cursive;
         font-family: 'Righteous', cursive;
-        width: 85%;
+        width: 100%;
+    }
+    
+    #logo {
+        width: 20%;
     }
     
     ul a {
@@ -130,9 +134,8 @@
     
     .frm {
         position: absolute;
-        top: 15%;
+        top: 25%;
         left: 35%;
-        /* transform: translate(-50%, -50%); */
         width: 400px;
         padding: 2rem;
         max-width: 400px;
