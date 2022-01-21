@@ -11,19 +11,37 @@ body {
     font-size: 20px;
 }
 
-a,
-a:hover,
-a:focus {
+.navbar {
+    display: flex;
+    width: 100%;
+    font-family: 'EBGaramond', serif;
+    font-family: 'Fruktur', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Righteous', cursive;
+    float: right;
+}
+
+ul a {
     text-decoration: none;
+    color: #090A21;
 }
 
 ul {
-    margin: 0;
-    padding: 0;
+    display: flex;
+    justify-content: right;
+    text-align: center;
 }
 
-li {
+ul li {
     list-style: none;
+    padding: 3rem;
+    font-weight: 900;
+    font-size: 28px;
+}
+
+li a:hover {
+    text-decoration: underline 5px #E34544;
+    transition: all ease-in-out 250ms;
 }
 
 image {
